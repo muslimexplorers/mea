@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "slug": "understanding-quran-modern-world",
+    "title": "Understanding the Quran in the Modern World",
+    "excerpt": "Explore how the timeless teachings of the Quran remain relevant and applicable in today's rapidly changing world, offering guidance for contemporary challenges.",
+    "content": "The Quran, revealed over 1400 years ago, continues to provide profound guidance for humanity in the modern era. Its teachings transcend time and culture, offering solutions to contemporary challenges while maintaining its spiritual essence. In this article, we explore how the Quran's wisdom applies to modern life, from ethical decision-making to social justice, and how its principles can guide us through the complexities of the 21st century.",
+    "author": "Dr. Ahmed Hassan",
+    "date": "2024-01-15",
+    "category": "Quran Studies",
+    "readTime": "8 min read",
+    "image": "https://d64gsuwffb70l.cloudfront.net/684f623ae62c06b8c3314d2b_1750798112428_8ff30c76.jpg"
+  },
+  {
+    "id": 2,
+    "slug": "prophet-muhammad-leadership-lessons",
+    "title": "Leadership Lessons from Prophet Muhammad (PBUH)",
+    "excerpt": "Discover the timeless leadership principles demonstrated by Prophet Muhammad (PBUH) and how they can be applied in modern leadership contexts.",
+    "content": "Prophet Muhammad (PBUH) exemplified exceptional leadership qualities that transformed not only Arabian society but continue to inspire leaders worldwide. His approach to leadership was characterized by compassion, justice, consultation, and leading by example. This article examines key leadership lessons from the Prophet's life and how modern leaders can incorporate these principles in their personal and professional lives.",
+    "author": "Fatima Al-Zahra",
+    "date": "2024-01-10",
+    "category": "Seerah",
+    "readTime": "6 min read",
+    "image": "https://d64gsuwffb70l.cloudfront.net/684f623ae62c06b8c3314d2b_1750798113473_0f67b696.png"
+  },
+  {
+    "id": 3,
+    "slug": "islamic-perspective-environmental-stewardship",
+    "title": "Islamic Perspective on Environmental Stewardship",
+    "excerpt": "Learn about Islam's comprehensive approach to environmental protection and how Islamic principles promote sustainable living and care for creation.",
+    "content": "Islam places great emphasis on environmental stewardship, viewing humans as trustees (khalifa) of Earth. The Quran and Sunnah provide clear guidance on protecting the environment, conserving resources, and maintaining the balance of creation. This article explores Islamic environmental ethics and how they align with modern sustainability efforts, offering a spiritual framework for addressing climate change and environmental challenges.",
+    "author": "Dr. Omar Malik",
+    "date": "2024-01-05",
+    "category": "Islamic Ethics",
+    "readTime": "7 min read",
+    "image": "https://d64gsuwffb70l.cloudfront.net/684f623ae62c06b8c3314d2b_1750798110181_b4b10543.jpg"
+  },
+  {
+    "id": 4,
+    "slug": "science-islam-historical-contributions",
+    "title": "Science and Islam: Historical Contributions and Modern Relevance",
+    "excerpt": "Explore the rich history of Islamic contributions to science and how the Islamic worldview encourages scientific inquiry and discovery.",
+    "content": "The Islamic Golden Age witnessed unprecedented scientific advancement, with Muslim scholars making groundbreaking contributions to mathematics, medicine, astronomy, and philosophy. This article examines the historical relationship between Islam and science, highlighting key figures and discoveries, while discussing how Islamic principles continue to encourage scientific inquiry and ethical research in the modern world.",
+    "author": "Prof. Aisha Rahman",
+    "date": "2023-12-28",
+    "category": "Islam and Science",
+    "readTime": "10 min read",
+    "image": "https://d64gsuwffb70l.cloudfront.net/684f623ae62c06b8c3314d2b_1750798105842_44b158ba.png"
+  },
+  {
+    "id": 5,
+    "slug": "hajj-spiritual-transformation",
+    "title": "Hajj: A Journey of Spiritual Transformation",
+    "excerpt": "Understand the profound spiritual significance of Hajj and how this sacred pilgrimage transforms the hearts and minds of millions of Muslims.",
+    "content": "Hajj represents one of Islam's most profound spiritual experiences, bringing together millions of Muslims from diverse backgrounds in a display of unity and devotion. This article explores the deeper meanings behind the rituals of Hajj, their historical significance, and the transformative impact this pilgrimage has on individuals and the global Muslim community. We examine how the lessons of Hajj extend beyond the pilgrimage itself, influencing daily life and spiritual development.",
+    "author": "Imam Abdullah",
+    "date": "2023-12-20",
+    "category": "Spirituality",
+    "readTime": "9 min read",
+    "image": "https://d64gsuwffb70l.cloudfront.net/684f623ae62c06b8c3314d2b_1750798111130_93e63071.jpg"
+  },
+  {
+    "id": 6,
+    "slug": "islamic-finance-ethical-banking",
+    "title": "Islamic Finance: Principles of Ethical Banking",
+    "excerpt": "Discover the principles of Islamic finance and how Sharia-compliant banking offers an ethical alternative to conventional financial systems.",
+    "content": "Islamic finance operates on principles that prohibit interest (riba), excessive uncertainty (gharar), and investment in harmful activities. This comprehensive system promotes risk-sharing, asset-backed transactions, and ethical investment practices. This article explains the fundamental principles of Islamic finance, its various instruments, and how it provides a viable alternative to conventional banking while promoting economic justice and stability.",
+    "author": "Dr. Sarah Khan",
+    "date": "2023-12-15",
+    "category": "Islamic Economics",
+    "readTime": "8 min read",
+    "image": "https://d64gsuwffb70l.cloudfront.net/684f623ae62c06b8c3314d2b_1750798107504_72ac26db.png"
+  }
+]
