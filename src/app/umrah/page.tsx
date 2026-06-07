@@ -6,7 +6,7 @@ import PageHeader from "@/components/layout/PageHeader";
 export const metadata: Metadata = {
   title: "Paths of Revelation | Umrah Journey",
   description:
-    "A 21-day family Seerah expedition across Arabia with Umrah, Makkah, Madinah, Al Baha, Abha, AlUla, Tabuk, Madyan, and Haql.",
+    "A 21-day family Seerah expedition across Arabia with Umrah, Makkah, Madinah, Al Baha, Abha, Al-Hijr near AlUla, Tabuk, Madyan, and Haql.",
 };
 
 const overview = [
@@ -21,7 +21,10 @@ const routeStops = [
   { place: "Al Baha and Abha", note: "Southern mountains, family reflection, and nature sessions" },
   { place: "Makkah", note: "Second Umrah and renewed worship in the Haram" },
   { place: "Madinah", note: "Hijrah route learning and the Madinah 100 Ziyarat program" },
-  { place: "AlUla and Tabuk", note: "Ancient civilizations and the Ghazwah Tabuk route" },
+  {
+    place: "Al-Hijr near AlUla and Tabuk",
+    note: "A guided reflection on Mada'in Salih, the people of Thamud, and the Ghazwah Tabuk route",
+  },
   { place: "Mount Sinai Region, Madyan, and Haql", note: "Prophetic stories, sacred geography, and northern frontiers" },
 ];
 
@@ -97,12 +100,65 @@ const journey = [
     description:
       "The final stage takes families into some of Arabia's most fascinating regions, combining Seerah, Qur'anic history, prophetic stories, geography, nature exploration, and family reflection.",
     details: [
-      "AlUla's ancient civilizations and remarkable landscapes",
+      "Al-Hijr near AlUla, approached as a place of humility, gratitude, and Qur'anic learning",
       "The Ghazwah Tabuk route",
       "The Mount Sinai region and reflections on the story of Prophet Musa (A.S.)",
       "Madyan and Haql at Saudi Arabia's northern frontier",
     ],
   },
+];
+
+const alHijrBlessings = [
+  "Extraordinary engineering",
+  "Homes carved into mountains",
+  "Prosperity and wealth",
+  "Advanced craftsmanship",
+];
+
+const alHijrNotHereFor = [
+  "Seeking entertainment",
+  "Treating the site as a theme park",
+  "Taking prideful or disrespectful photographs",
+  "Mocking, joking about, or trivialising history",
+  "Focusing only on architecture while forgetting the lesson",
+];
+
+const alHijrHereFor = [
+  "Reflecting upon the power of Allah",
+  "Learning from the mistakes of previous nations",
+  "Strengthening our faith in the Qur'an",
+  "Appreciating the reality of prophetic history",
+  "Increasing gratitude for Allah's blessings",
+  "Connecting Islamic history with the world around us",
+];
+
+const reflectionQuestions = [
+  "What blessings did Allah give these people?",
+  "Why did they fail despite their achievements?",
+  "What lessons does modern civilization need to learn from them?",
+  "How can I avoid arrogance and ingratitude?",
+  "What message is Allah teaching me through this place?",
+];
+
+const explorerMindset = [
+  "Every mountain is a lesson.",
+  "Every valley is a reminder.",
+  "Every historical site is a classroom.",
+  "We do not merely observe history. We learn from it, reflect upon it, and allow it to bring us closer to Allah.",
+];
+
+const alHijrReminders = [
+  "Maintain respect and humility at all times",
+  "Follow the instructions of your trip leaders",
+  "Keep the area clean and do not litter",
+  "Make du'a, reflect, and move on",
+];
+
+const journeyIntentions = [
+  "A journey of the heart, not just the eyes",
+  "A journey of reflection, not just photos",
+  "A journey of connection, not just collection",
+  "A journey that benefits our Deen and Dunya",
 ];
 
 const familyFeatures = [
@@ -140,7 +196,7 @@ export default function UmrahPage() {
         eyebrow="Muslim Explorers Academy presents"
         title="Paths of"
         highlight="Revelation"
-        description="A sacred 21-day family Seerah expedition across Arabia: from Umrah in Makkah to Madinah, the Hijrah routes, the southern mountains, and the lands connected to Prophets and civilizations."
+        description="A sacred 21-day family Seerah expedition across Arabia: from Umrah in Makkah to Madinah, the Hijrah routes, the southern mountains, and the lands connected to Prophets, civilizations, and Qur'anic reminders."
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Umrah" }]}
         accent="emerald"
       />
@@ -288,6 +344,193 @@ export default function UmrahPage() {
               ))}
             </div>
           </div>
+
+          <section className="mb-16">
+            <div className="glass-nav-solid rounded-3xl p-6 sm:p-8 lg:p-10 overflow-hidden">
+              <div className="grid grid-cols-1 lg:grid-cols-[0.8fr_1.2fr] gap-8 lg:gap-10 items-start mb-10">
+                <div>
+                  <div className="inline-flex glass text-gold text-[11px] font-600 uppercase tracking-[0.2em] px-3.5 py-1.5 rounded-full mb-5">
+                    Visitor guidance
+                  </div>
+                  <h2 className="text-3xl sm:text-4xl lg:text-5xl font-200 tracking-tight text-white mb-4">
+                    Al-Hijr <span className="text-gradient-gold font-300">(Mada'in Salih)</span>
+                  </h2>
+                  <p className="text-slate-400 font-300 text-base leading-relaxed">
+                    The region of Al-Hijr, also known as Mada'in Salih, is associated with the people of Prophet
+                    Salih (A.S.) and the nation of Thamud mentioned repeatedly in the Qur'an. While many may view
+                    this location as an archaeological wonder, Muslims approach it through the lens of the Qur'an
+                    and Sunnah.
+                  </p>
+                </div>
+
+                <div className="rounded-2xl border border-gold/20 bg-gold/[0.06] p-6 sm:p-7">
+                  <p className="text-[11px] font-800 uppercase tracking-[0.2em] text-gold mb-3">
+                    This is not a tourist attraction
+                  </p>
+                  <div className="space-y-4 text-sm sm:text-base text-slate-300 font-300 leading-relaxed">
+                    <p>
+                      This is a place of reflection, humility, gratitude, and learning. It is not a place for
+                      entertainment, amusement, or casual sightseeing.
+                    </p>
+                    <p>
+                      Participants are reminded to approach the site as students of history and seekers of guidance,
+                      not as tourists collecting images without absorbing the lesson.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mb-5">
+                <article className="glass rounded-2xl p-6 sm:p-7">
+                  <div className="text-[11px] font-800 uppercase tracking-[0.18em] text-emerald mb-3">
+                    What happened here
+                  </div>
+                  <p className="text-sm text-slate-400 font-300 leading-relaxed mb-5">
+                    Allah blessed the people of Thamud with remarkable ability and material strength, yet many among
+                    them rejected the message brought by Prophet Salih (A.S.). Their story became a lasting reminder
+                    for humanity.
+                  </p>
+                  <ul className="space-y-2.5">
+                    {alHijrBlessings.map((item) => (
+                      <li key={item} className="flex items-start gap-3">
+                        <span className="mt-2 w-1.5 h-1.5 rounded-full bg-emerald shrink-0" />
+                        <span className="text-sm text-slate-300 font-300 leading-relaxed">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <blockquote className="mt-6 border-l-2 border-gold/50 pl-4 text-sm text-gold-soft font-300 leading-relaxed">
+                    "Travel through the earth and observe how was the end of those before."
+                    <span className="block text-xs text-slate-500 mt-2">Qur'an</span>
+                  </blockquote>
+                </article>
+
+                <article className="glass rounded-2xl p-6 sm:p-7">
+                  <div className="text-[11px] font-800 uppercase tracking-[0.18em] text-gold mb-3">
+                    The Prophet's guidance
+                  </div>
+                  <p className="text-sm text-slate-400 font-300 leading-relaxed mb-5">
+                    When the Prophet Muhammad (peace be upon him) passed through this region during the expedition
+                    to Tabuk, he instructed his companions not to enter such places carelessly or with amusement.
+                  </p>
+                  <p className="text-sm text-slate-300 font-300 leading-relaxed mb-5">
+                    Instead, they were to remember Allah, reflect upon His signs, and take lessons from the fate of
+                    previous nations.
+                  </p>
+                  <div className="rounded-xl border border-white/10 bg-white/[0.04] p-5">
+                    <p className="text-[11px] font-800 uppercase tracking-[0.18em] text-emerald mb-2">
+                      The message is clear
+                    </p>
+                    <p className="text-lg text-white font-300 leading-snug">
+                      Do not approach this place as tourists. Approach it as students of history and seekers of
+                      guidance.
+                    </p>
+                  </div>
+                </article>
+
+                <article className="glass rounded-2xl p-6 sm:p-7">
+                  <div className="text-[11px] font-800 uppercase tracking-[0.18em] text-gold mb-3">
+                    Our purpose today
+                  </div>
+                  <p className="text-sm font-700 uppercase tracking-[0.14em] text-red-300 mb-3">We are not here to</p>
+                  <ul className="space-y-2.5 mb-6">
+                    {alHijrNotHereFor.map((item) => (
+                      <li key={item} className="flex items-start gap-3">
+                        <span className="mt-2 w-1.5 h-1.5 rounded-full bg-red-300 shrink-0" />
+                        <span className="text-sm text-slate-300 font-300 leading-relaxed">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="text-sm font-700 uppercase tracking-[0.14em] text-emerald mb-3">We are here to</p>
+                  <ul className="space-y-2.5">
+                    {alHijrHereFor.map((item) => (
+                      <li key={item} className="flex items-start gap-3">
+                        <span className="mt-2 w-1.5 h-1.5 rounded-full bg-emerald shrink-0" />
+                        <span className="text-sm text-slate-300 font-300 leading-relaxed">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </article>
+              </div>
+
+              <div className="grid grid-cols-1 xl:grid-cols-[1.15fr_0.85fr] gap-5">
+                <article className="glass rounded-2xl p-6 sm:p-7">
+                  <div className="text-[11px] font-800 uppercase tracking-[0.18em] text-gold mb-5">
+                    Questions to reflect on
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+                    {reflectionQuestions.map((question, index) => (
+                      <div key={question} className="rounded-xl border border-white/10 bg-white/[0.03] p-4">
+                        <span className="text-sm font-800 text-gold">{String(index + 1).padStart(2, "0")}</span>
+                        <p className="text-sm text-slate-300 font-300 leading-relaxed mt-3">{question}</p>
+                      </div>
+                    ))}
+                  </div>
+                </article>
+
+                <article className="glass rounded-2xl p-6 sm:p-7">
+                  <div className="text-[11px] font-800 uppercase tracking-[0.18em] text-emerald mb-3">
+                    A final reflection
+                  </div>
+                  <p className="text-sm text-slate-400 font-300 leading-relaxed mb-4">
+                    As you stand before these magnificent rock-carved dwellings, do not ask only, "How great were
+                    these people?" Instead ask, "What lesson is Allah teaching me through their story?"
+                  </p>
+                  <p className="text-sm text-slate-300 font-300 leading-relaxed">
+                    True exploration is not about seeing more places. It is about seeing the signs of Allah more
+                    clearly.
+                  </p>
+                  <p className="mt-5 text-sm text-gold-soft font-300 leading-relaxed">
+                    "And We certainly left of it a sign as clear evidence for a people who use reason."
+                    <span className="block text-xs text-slate-500 mt-2">Qur'an 29:35</span>
+                  </p>
+                </article>
+              </div>
+
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-5">
+                <article className="glass rounded-2xl p-6 sm:p-7">
+                  <div className="text-[11px] font-800 uppercase tracking-[0.18em] text-emerald mb-4">
+                    The Muslim Explorer's mindset
+                  </div>
+                  <ul className="space-y-3">
+                    {explorerMindset.map((item) => (
+                      <li key={item} className="flex items-start gap-3">
+                        <span className="mt-2 w-1.5 h-1.5 rounded-full bg-gradient-to-br from-gold to-emerald shrink-0" />
+                        <span className="text-sm text-slate-300 font-300 leading-relaxed">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </article>
+
+                <article className="glass rounded-2xl p-6 sm:p-7">
+                  <div className="text-[11px] font-800 uppercase tracking-[0.18em] text-gold mb-4">
+                    Important reminders
+                  </div>
+                  <ul className="space-y-3">
+                    {alHijrReminders.map((item) => (
+                      <li key={item} className="flex items-start gap-3">
+                        <span className="mt-2 w-1.5 h-1.5 rounded-full bg-gold shrink-0" />
+                        <span className="text-sm text-slate-300 font-300 leading-relaxed">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </article>
+
+                <article className="glass rounded-2xl p-6 sm:p-7">
+                  <div className="text-[11px] font-800 uppercase tracking-[0.18em] text-emerald mb-4">
+                    Let our journey be
+                  </div>
+                  <ul className="space-y-3">
+                    {journeyIntentions.map((item) => (
+                      <li key={item} className="flex items-start gap-3">
+                        <span className="mt-2 w-1.5 h-1.5 rounded-full bg-emerald shrink-0" />
+                        <span className="text-sm text-slate-300 font-300 leading-relaxed">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </article>
+              </div>
+            </div>
+          </section>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 mb-16">
             <section className="glass rounded-2xl p-6 sm:p-7">
